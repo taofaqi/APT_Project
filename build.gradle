@@ -29,7 +29,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://raw.githubusercontent.com/taofaqi/HttpDemo/master"
+            url "https://raw.githubusercontent.com/taofaqi/APT_Project/master"
         }
     }
 }
