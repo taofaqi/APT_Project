@@ -1,0 +1,2 @@
+include ':app', ':annotation', ':compiler', ':http'
+rootProject.name = 'APT_Project'
