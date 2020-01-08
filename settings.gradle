@@ -1,2 +1,2 @@
-include ':app', ':annotation', ':compiler', ':http'
+include ':app', ':http'
 rootProject.name = 'APT_Project'
