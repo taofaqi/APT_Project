@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ttp.apt_project.bean.ChapterResult;
 import com.ttp.http.HttpListener;
+import com.ttp.httpCore.HttpApiManager;
 
 import java.util.List;
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 SystemClock.sleep(2000);
-                startActivity(new Intent(MainActivity.this,PersonalActivity.class));
+                startActivity(new Intent(MainActivity.this, PersonalActivity.class));
             }
         }).start();
     }

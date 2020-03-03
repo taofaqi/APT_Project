@@ -7,6 +7,7 @@ import android.text.TextUtils;
  * @time 2019/12/27
  */
 public class BaseResult<T> {
+
     public int errorCode;
     public String errorMsg;
     public T data;
