@@ -11,15 +11,15 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-//        // 在gradle文件中配置选项参数值（用于APT传参接收）
-//        // 切记：必须写在defaultConfig节点下
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                arguments = [content: 'ApiProcessorJavaPot']
-//                // 显式声明支持注解
-//                includeCompileClasspath false
-//            }
-//        }
+        // 在gradle文件中配置选项参数值（用于APT传参接收）
+        // 切记：必须写在defaultConfig节点下
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [content: 'ApiProcessorJavaPot']
+                // 显式声明支持注解
+                includeCompileClasspath false
+            }
+        }
     }
 
 
@@ -47,4 +47,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation project(path: ':http')
+    annotationProcessor 'com.github.taofaqi.Compiler:compiler:0.0.6'
 }

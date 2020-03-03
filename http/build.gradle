@@ -40,11 +40,10 @@ dependencies {
     api("io.reactivex.rxjava2:rxjava:2.2.16")
     api("io.reactivex.rxjava2:rxandroid:2.1.1")
 
-
+    api 'com.github.taofaqi.Compiler:annotation:0.0.6'
 }
 
 //https://www.jianshu.com/p/7c6e528717aa        Github和jitpack发布自己的依赖包
-
 
 
 //apply plugin: 'maven'
